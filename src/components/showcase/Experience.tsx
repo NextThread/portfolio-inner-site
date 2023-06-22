@@ -10,127 +10,97 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Hover</h1>
+                        <h1>Skyscanner</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://hover.gg/'}
+                            // href={'https://hover.gg/'}
                         >
-                            <h4>www.hover.gg</h4>
+                            {/* <h4>www.hover.gg</h4> */}
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Frontend Engineer</h3>
+                        <h3>Software Engineer Intern</h3>
                         <b>
-                            <p>Summer 2020 - Fall 2021</p>
+                            <p>April 2023 - May 2023</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
-                <p>
+                {/* <p>
                     Targeted towards online content creators and streamers
                     looking to build a brand, Hover is the home of over 150K
                     users. Written in Typescript using React, React-Native,
                     Framer, Express, and Redux.
-                </p>
+                </p> */}
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Architected and engineered the vertical scrolling
-                            discover player which, at its daily peak, was
-                            responsible for generating over 600,000 views across
-                            20,000 active users.
+                        Engineered a dropwizard micro-service to facilitate seamless search experience for users; developed algorithms that delivered
+search results within 3 seconds, resulting in a 25% increase in user engagement.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Designed and implemented multiple features to
-                            increase app usability and user experience while
-                            ensuring the quality, maintainability and
-                            scalability of the front end as the user base grew
-                            by over 50,000.
+                        Constructed the data flow architecture for the application, including handling and processing of 10k+ user searches daily;
+integrated machine learning models that optimized search results and increased click-through rate by 30%
                         </p>
                     </li>
                     <li>
                         <p>
-                            Coordinated major refactors targeted towards app
-                            optimization and performance resulting in a smoother
-                            user experience and accomplished by eliminating
-                            redundant re-renders and API calls by over 50%.
+                        Created a JSON serialization method for search results that increased communication efficiency by 23%, allowing the
+application to return search results to users faster.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Directed and executed an internal migration of 3
-                            individual repositories to a single monorepo,
-                            greatly reducing overhead for developing new
-                            features, fixing bugs, and managing dependencies.
+                        Developed a data deserialization mechanism that seamlessly integrated with the application, reducing search processing time
+by 17% and improved user experience.
                         </p>
                     </li>
-                    <li>
-                        <p>
+                    {/* <li> */}
+                        {/* <p>
                             Rebuilt the website with React and shared mobile app
                             components allowing users to access a wide variety
                             of app interactions entirely on the web, resulting
                             in over 700,000 total site visits.
-                        </p>
-                    </li>
+                        </p> */}
+                    {/* </li>1111 */}
                 </ul>
             </div>
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>BrACS</h1>
+                        <h1>10X Academy</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://bracs.co/'}
+                            // href={'https://bracs.co/'}
                         >
-                            <h4>www.bracs.co</h4>
+                            {/* <h4>www.bracs.co</h4> */}
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Team Lead & Engineer</h3>
+                        <h3>DSA & Dev Mentor</h3>
                         <b>
-                            <p>Fall 2021 - Spring 2022</p>
+                            <p>Sep 2022 - Apr 2023</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
-                <p>
-                    Supervised and developed the front end of bracs.co, a
-                    beautifully simple and effective bracket creation and
-                    management engine. Written in Typescript using React and
-                    deployed using AWS Elastic Beanstalk.
-                </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Managed the project and team members by conducting
-                            bi-weekly stand-ups.
+                        Mentored over 500+ students & working professionals, in DSA & Dev.Taken 1:1, group mentoring, doubt sessions.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Architected bracket view UI using React Flow and
-                            custom bracket data types built from binary trees.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Created conversion algorithms to serialize bracket
-                            tree data to allow for saving in the cloud.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Implemented bracket generation utilities which
-                            employ gray code for proper team seeding and
-                            placement.
+                        Helped them in debugging codes, assignments & various projects.
                         </p>
                     </li>
                 </ul>
@@ -138,101 +108,71 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>K-F/X</h1>
+                        <h1>USthaan</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://kfxnyc.com/'}
+                            // href={'https://kfxnyc.com/'}
                         >
-                            <h4>www.kfxnyc.com</h4>
+                            {/* <h4>www.kfxnyc.com</h4> */}
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Special Effects Technician</h3>
+                        <h3>Software Development Engineer Intern</h3>
                         <b>
-                            <p>Fall 2019, Summer 2021</p>
+                            <p>May 2022, Nov 2022</p>
                         </b>
                     </div>
                 </div>
             </div>
             <div className="text-block">
-                <p>
+                {/* <p>
                     Applied problem solving and technical skills to operate
                     large equipment such as rain machines, fog machines, small
                     explosives and general rigging with a professional crew of
                     50+ people.
-                </p>
+                </p> */}
                 <br />
-                <h3 style={styles.indent}>Screen Credits:</h3>
                 <ul>
-                    <li style={styles.row}>
-                        <p>• Ray Donovan</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.sho.com/ray-donovan"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SHOWTIME
-                            </a>{' '}
-                            ]
+                        Wrote Unit tests and e2e tests for the application using Jasmine, Karma, chaiJs & mocha.
+
                         </p>
                     </li>
-                    <li style={styles.row}>
-                        <p>• Ray Donovan: The Movie</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.sho.com/titles/3508117/ray-donovan-the-movie"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SHOWTIME
-                            </a>{' '}
-                            ]
+                        Increased the code coverage from 33 to 92 percent, created a new service to avoid multiple deployments, this reduced the time
+taken during deployment of the services.
                         </p>
                     </li>
-                    <li style={styles.row}>
-                        <p>• Hightown</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.starz.com/us/en/series/hightown/57463"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                STARZ
-                            </a>{' '}
-                            ]
+                        Utilized JIRA to track and report issues and analyzed Jenkins and Rapid Automation Software logs to troubleshoot and resolve
+issues with microservices.
                         </p>
                     </li>
-                    <li style={styles.row}>
-                        <p>• Bull</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.cbs.com/shows/bull/"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                CBS
-                            </a>{' '}
-                            ]
+                        Developed JSON Schemas & implemented Lambda functions on AWS for real-time email notifications of new orders & signups.
                         </p>
                     </li>
-                    <li style={styles.row}>
-                        <p>• At Home with Amy Sedaris</p>
+                    
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.trutv.com/shows/at-home-with-amy-sedaris"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                truTV
-                            </a>{' '}
-                            ]
+                        Worked with AWS Cloudformation templates to manage services like EC2, S3 buckets, Dynamodb
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        Reviewed, analyzed and optimized 20+ pull requests to ensure the highest quality code and adherence to industry best
+practices; improved code stability by 25% through active collaboration with developers.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                        Engineered and implemented an automation pipeline for deploying services in prod and alpha environments using Groovy
+and Jenkins; reduced deployment time by 40% and enabled faster feature delivery with less downtime.
                         </p>
                     </li>
                 </ul>

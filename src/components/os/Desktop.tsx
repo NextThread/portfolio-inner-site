@@ -36,36 +36,36 @@ const APPLICATIONS: {
         shortcutIcon: 'showcaseIcon',
         component: ShowcaseExplorer,
     },
-    trail: {
-        key: 'trail',
-        name: 'The Oregon Trail',
-        shortcutIcon: 'trailIcon',
-        component: OregonTrail,
-    },
-    doom: {
-        key: 'doom',
-        name: 'Doom',
-        shortcutIcon: 'doomIcon',
-        component: Doom,
-    },
-    scrabble: {
-        key: 'scrabble',
-        name: 'Scrabble',
-        shortcutIcon: 'scrabbleIcon',
-        component: Scrabble,
-    },
-    henordle: {
-        key: 'henordle',
-        name: 'Henordle',
-        shortcutIcon: 'henordleIcon',
-        component: Henordle,
-    },
-    credits: {
-        key: 'credits',
-        name: 'Credits',
-        shortcutIcon: 'credits',
-        component: Credits,
-    },
+    // trail: {
+    //     key: 'trail',
+    //     name: 'The Oregon Trail',
+    //     shortcutIcon: 'trailIcon',
+    //     component: OregonTrail,
+    // },
+    // doom: {
+    //     key: 'doom',
+    //     name: 'Doom',
+    //     shortcutIcon: 'doomIcon',
+    //     component: Doom,
+    // },
+    // scrabble: {
+    //     key: 'scrabble',
+    //     name: 'Scrabble',
+    //     shortcutIcon: 'scrabbleIcon',
+    //     component: Scrabble,
+    // },
+    // henordle: {
+    //     key: 'henordle',
+    //     name: 'Henordle',
+    //     shortcutIcon: 'henordleIcon',
+    //     component: Henordle,
+    // },
+    // credits: {
+    //     key: 'credits',
+    //     name: 'Credits',
+    //     shortcutIcon: 'credits',
+    //     component: Credits,
+    // },
 };
 
 const Desktop: React.FC<DesktopProps> = (props) => {

@@ -12,13 +12,15 @@ const About: React.FC<AboutProps> = (props) => {
         <div className="site-page-content">
             {/* <img src={me} style={styles.topImage} alt="" /> */}
             <h1 style={{ marginLeft: -16 }}>Welcome</h1>
-            <h3>I'm Henry Heffernan</h3>
+            <h3>I'm Anurag Roy</h3>
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Vercel! In May
-                    of 2022 I graduated from Rensselaer Polytechnic Institute
-                    with my BS in Computer Science.
+                    I'm a competive programmer, software developer, mentor.
+                    2024 grad, doing my B.Tech(CSE) from ICFAI University.
+                    Achieved 2 digit global rank & 1 digit AIR in many contests.
+                    Have more than 1 years of Internship experience in SDE & SWE role.
+                    Mentored more than 1500+ students & working professionals.
                 </p>
                 <br />
                 <p>
@@ -27,8 +29,8 @@ const About: React.FC<AboutProps> = (props) => {
                     building it. If you have any questions or comments, feel
                     free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:anuragr135@gmail.com">
+                        anuragr135@gmail.com
                     </a>
                 </p>
             </div>
@@ -47,7 +49,7 @@ const About: React.FC<AboutProps> = (props) => {
                     school, high school, and college.
                 </p>
                 <br />
-                <div className="captioned-image">
+                {/* <div className="captioned-image">
                     <img src={me} style={styles.image} alt="" />
                     <p>
                         <sub>
@@ -55,9 +57,9 @@ const About: React.FC<AboutProps> = (props) => {
                             website :)
                         </sub>
                     </p>
-                </div>
+                </div> */}
 
-                <p>
+                {/* <p>
                     I started programming more seriously in high school,
                     initially learning how to scrape and interact with websites.
                     I went on to do a ton of passion projects, many of them with
@@ -73,8 +75,8 @@ const About: React.FC<AboutProps> = (props) => {
                     multiple game projects, apps, and more. One of these
                     projects is viewable on my{' '}
                     <Link to="/projects/software">Software Projects</Link> page.
-                </p>
-                <br />
+                </p> */}
+                {/* <br />
                 <p>
                     In 2017, I got accepted into Rennselear Polytechnic
                     Institute to study Computer Science. It was my first choice
@@ -86,7 +88,7 @@ const About: React.FC<AboutProps> = (props) => {
                     year when I decided to focus on other opportunities.
                 </p>
                 <br />
-                <br />
+                <br /> */}
                 <div style={{}}>
                     <div
                         style={{
@@ -96,7 +98,7 @@ const About: React.FC<AboutProps> = (props) => {
                             flexDirection: 'column',
                         }}
                     >
-                        <h3>My Hobbies</h3>
+                        {/* <h3>My Hobbies</h3>
                         <br />
                         <p>
                             Beyond software, I have a lot of hobbies that I
@@ -109,27 +111,27 @@ const About: React.FC<AboutProps> = (props) => {
                             pages under my projects tab. Some other hobbies I
                             enjoy are working out, cooking, and (unsurprisingly)
                             playing video games.
-                        </p>
-                        <br />
+                        </p> */}
+                        {/* <br />
                         <p>
                             In college, I was an active member in the fraternity
                             Sigma Alpha Epsilon and held multiple positions in
                             the chapter. I met a lot of amazing people through
                             my fraternity and thoroughly enjoyed the community.
-                        </p>
+                        </p> */}
                     </div>
-                    <div style={styles.verticalImage}>
+                    {/* <div style={styles.verticalImage}>
                         <img src={meNow} style={styles.image} alt="" />
                         <p>
                             <sub>
                                 <b>Figure 2:</b> Me, April 2022
                             </sub>
                         </p>
-                    </div>
+                    </div> */}
                 </div>
-                <br />
-                <br />
-                <p>
+                {/* <br />
+                <br /> */}
+                {/* <p>
                     Thanks for reading about me! I hope that you enjoy exploring
                     the rest of my portfolio website and everything it has to
                     offer. If you find the easter egg make sure to let me know
@@ -142,15 +144,15 @@ const About: React.FC<AboutProps> = (props) => {
                         @henryheffernan
                     </a>{' '}
                     Good luck and have fun!
-                </p>
+                </p> */}
                 <br />
                 <p>
                     If you have any questions or comments I would love to hear
                     them. You can reach me through the{' '}
                     <Link to="/contact">contact page</Link> or shoot me an email
                     at{' '}
-                    <a href="mailto:henryheffernan@gmail.com">
-                        henryheffernan@gmail.com
+                    <a href="mailto:anuragr135@gmail.com">
+                        anuragr135@gmail.com
                     </a>
                 </p>
             </div>
