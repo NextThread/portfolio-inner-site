@@ -94,16 +94,6 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                     </li>
                 </ul>
                 <br />
-                <div className="captioned-image">
-                    <img src={gsts} alt="" />
-                    <p>
-                        <sub>
-                            <b>Figure 2:</b> More pixel art: Enemy Lineup from a
-                            game I worked on called Guntattchment Saga
-                        </sub>
-                    </p>
-                </div>
-                <br />
                 <p>
                     This page is currently a work in progress. I've recently
                     found myself wanting to make more pixel art recently and I
